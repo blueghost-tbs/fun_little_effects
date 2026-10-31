@@ -8,6 +8,7 @@ Nothing fancy and complicated, it is a recreational average late afternoon codin
 ## Running & Licence
 
 To run the code, you need an installed Python environment with sdl2 and opengl libraries, e.g. on Debian & Ubuntu you can install that by running:
-```sudo apt-get install python3-sdl2 python3-opengl
 ```
-The code is in the public domain
+sudo apt-get install python3-sdl2 python3-opengl
+```
+The code is in the public domain.
