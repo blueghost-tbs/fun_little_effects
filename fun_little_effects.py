@@ -59,10 +59,7 @@ def main():
         # handle exiting on window close / keyboard event
         event = SDL_Event()
         while SDL_PollEvent(ctypes.byref(event)) != 0:
-            if event.type == SDL_QUIT:
-                running = False
-                break
-            elif event.type == SDL_KEYDOWN:
+            if (event.type == SDL_QUIT) or (event.type == SDL_KEYDOWN):
                 running = False
                 break
 
